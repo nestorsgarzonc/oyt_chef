@@ -1,15 +1,32 @@
 name: oyt_chef
 description: A new Flutter project.
-publish_to: 'none' 
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: ">=2.18.6 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  oyt_front_core:
+    path: ./packages/oyt_front_core
+  oyt_front_widgets:
+    path: ./packages/oyt_front_widgets
+  oyt_front_auth:
+    path: ./packages/oyt_front_auth
+  oyt_front_restaurant:
+    path: ./packages/oyt_front_restaurant
+  oyt_front_product:
+    path: ./packages/oyt_front_product
+  oyt_front_orders_queue:
+    path: ./packages/oyt_front_orders_queue
+  oyt_front_order:
+    path: ./packages/oyt_front_order
+  oyt_front_table:
+    path: ./packages/oyt_front_table
+  oyt_front_menu:
+    path: ./packages/oyt_front_menu
 
 dev_dependencies:
   flutter_test:
