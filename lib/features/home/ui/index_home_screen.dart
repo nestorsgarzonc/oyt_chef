@@ -75,15 +75,6 @@ class _IndexHomeScreenState extends ConsumerState<IndexHomeScreen> {
               ),
               isSelected: false,
             ),
-            const SizedBox(height: 10),
-            const Text(
-              'On Your Table',
-              style: TextStyle(
-                fontSize: 14,
-                color: Colors.deepOrange,
-                fontWeight: FontWeight.w600,
-              ),
-            ),
             const SafeArea(top: false, child: SizedBox.shrink()),
           ],
         ),
