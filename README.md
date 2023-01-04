@@ -1,3 +1,5 @@
+git submodule update --init
+
 # oyt_chef
 
 A new Flutter project.
