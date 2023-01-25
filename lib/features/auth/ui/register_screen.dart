@@ -5,7 +5,7 @@ import 'package:oyt_chef/features/auth/provider/auth_provider.dart';
 import 'package:oyt_front_auth/models/user_model.dart';
 import 'package:oyt_front_core/validators/text_form_validator.dart';
 import 'package:oyt_front_widgets/widgets/backgrounds/animated_background.dart';
-import 'package:oyt_front_widgets/widgets/buttons/custom_elevated_button.dart';
+
 import 'package:oyt_front_widgets/widgets/custom_text_field.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:oyt_front_widgets/loading/loading_widget.dart';
@@ -151,6 +151,6 @@ class RegisterButton extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return CustomElevatedButton(onPressed: onPressed, child: const Text('Registrarse'));
+    return FilledButton(onPressed: onPressed, child: const Text('Registrarse'));
   }
 }
